@@ -1,0 +1,31 @@
+body,html{
+    // background: red;
+    background: rgba(0, 0, 0, 0);
+    // overflow: none;
+}
+
+.flex {
+    display: flex;
+}
+.column{
+    flex-flow: column;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+.acenter{
+    align-items: center;
+}
+
+.NewSp{
+    // background: red;
+    width: 100%;
+    height: calc(100vh - 60px);
+    z-index: 2;
+}
+.App{
+    // overflow: none;
+    background: var(--pri);
+
+}
